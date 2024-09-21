@@ -22,15 +22,13 @@ body {
 
 #lyrics {
   font-size: 28px;
-  font-family: "Abril Fatface", serif;
-  font-style: normal;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
   position: absolute;
-  margin-bottom: 10%;
+  margin-bottom: 20%;
   z-index: 1;
   font-weight: bold;
   letter-spacing: 4px;
-  text-align: center;
 }
 @media only screen and (max-width: 600px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
@@ -42,19 +40,16 @@ body {
 
 }
 .titulo {
+  margin-bottom: 180px;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  color: yellow;
   position: absolute;
-  top:0;
-  font-family: "Dancing Script", system-ui;
-  font-optical-sizing: auto;
   font-weight: bold;
-  font-style: normal;
-  color: #f9fd25;
-  letter-spacing: 4px;
-  text-align: center;
+  letter-spacing: 10px;
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
+  text-align: center;
 }
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -1628,6 +1623,7 @@ body {
 }
 
 .container {
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }

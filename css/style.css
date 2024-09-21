@@ -39,13 +39,9 @@ body{
 .greetings{
     font-size: 7rem;
     font-weight: 900;
-    margin-bottom: 30px;
 }
 .greetings > span{
     animation: glow 2.5s ease-in-out infinite;
-    font-family: "Abril Fatface", serif;
-    font-weight: 400;
-    font-style: normal;
 }
 @keyframes glow{
     0%, 100%{
@@ -72,45 +68,16 @@ body{
 .greetings > span:nth-child(6){
     animation-delay: 1s;
 }
-.greetings > span:nth-child(7){
-    animation-delay: 1.2s;
-}
-.greetings > span:nth-child(8){
-    animation-delay: 1.4s;
-}
-.greetings > span:nth-child(9){
-    animation-delay: 1.6s;
-}
 
 .description{
     font-size: 1.5rem;
     margin-bottom: 20px;
-    color: #aeecf3;
-    text-align: center;
-}
-
-.description a{
-    color: #aeecf3;
-    font-size: 2rem;
-    font-family: "Dancing Script", system-ui;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
 }
 
 .button a{
     text-decoration: none;
     font-size: 1rem;
     color: #111;
-}
-
-@media screen and (max-width:900px){
-    .greetings{
-        display: block;
-        font-size: 6rem;
-        font-weight: 800;
-        text-align: center;
-    }
 }
 
 @media screen and (max-width:574px){
@@ -122,21 +89,6 @@ body{
     }
     .description{
         font-size: 2rem;
-    }
-    
-    .button a{
-        font-size: 1rem;
-    }
-}
-@media screen and (max-width:390px){
-    .greetings{
-        display: block;
-        font-size: 3rem;
-        font-weight: 800;
-        text-align: center;
-    }
-    .description{
-        font-size: 1rem;
     }
     
     .button a{
