@@ -116,12 +116,12 @@ body{
 @media screen and (max-width:574px){
     .greetings{
         display: block;
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 800;
         text-align: center;
     }
     .description{
-        font-size: 2rem;
+        font-size: 1rem;
     }
     
     .button a{

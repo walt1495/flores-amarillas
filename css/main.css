@@ -36,14 +36,14 @@ body {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
   #lyrics {
       font-size: 14px; /* Reduce el tamaño del texto para dispositivos más pequeños */
-      margin-bottom: 530px;
+      margin-bottom: 255px;
       letter-spacing: 3px;
   }
 
 }
 .titulo {
   position: absolute;
-  top:0;
+  top:50px;
   font-family: "Dancing Script", system-ui;
   font-optical-sizing: auto;
   font-weight: bold;
