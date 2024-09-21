@@ -1,2 +1,2 @@
 # flores-amarillas
-Proyecta flores amarillas y una conción junto a la letra
+Proyecta flores amarillas y una canción junto a la letra
