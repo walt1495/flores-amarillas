@@ -43,7 +43,7 @@ body {
 }
 .titulo {
   position: absolute;
-  top:50px;
+  top:0;
   font-family: "Dancing Script", system-ui;
   font-optical-sizing: auto;
   font-weight: bold;
