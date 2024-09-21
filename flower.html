@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="icon" href="img/flowers.png" type="image/x-icon" />
     <title>Flower</title>
+    <script>
+      const navEntries = performance.getEntriesByType("navigation");
+      if (navEntries.length > 0 && navEntries[0].type === "reload") {
+          window.location.replace('index.html');
+      }
+    </script>
   </head>
   <body class="container">
     <audio src="sound/Vicentico-creoquemeenamore.mp3" autoplay loop></audio>
